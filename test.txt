@@ -1,0 +1,37 @@
+var = 5;
+result = 1;
+
+while(var>0){
+    result = result * var;
+    var = var - 1;
+}
+echo result;
+
+a = 96;
+b = 80;
+c;
+d=1;
+
+while(d == 1){
+    c = a/b;
+    c = a-c*b;
+  	if(c==0){
+  	  echo b;
+  	  d = 2;
+    }
+    else{
+      	a = b;
+  	    b = c;
+    }
+}
+
+create_realm();
+addpaladin(4,'a');
+addpaladin(3,'b');
+addpaladin(1,'c');
+addpaladin(6,'d');
+addpaladin(5,'e');
+show_realm();
+replace('a', 5, 2, 46, 49);
+rmpaladin('c');
+run(6);
